@@ -1,0 +1,35 @@
+#SPDX-License-Identifier: MIT-0
+galaxy_info:
+  role_name: vector
+  author: Peter Gorin
+  description: Vector role installation
+  company: Netology
+
+  # If the issue tracker for your role is not on github, uncomment the
+  # next line and provide a value
+  # issue_tracker_url: http://example.com/issue/tracker
+
+  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+  # - BSD-3-Clause (default)
+  # - MIT
+  # - GPL-2.0-or-later
+  # - GPL-3.0-only
+  # - Apache-2.0
+  # - CC-BY-4.0
+  license: MIT
+  min_ansible_version: 2.12
+
+  platforms:
+    - name: CentOS
+      versions:
+        - 7
+        - 8
+    - name: RHEL
+      versions:
+        - 7
+        - 8
+
+  galaxy_tags:
+    - vector
+
+dependencies: []
